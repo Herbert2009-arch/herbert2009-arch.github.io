@@ -8,7 +8,10 @@ body {
 /* STRIP SECTIONS */
 .strip {
   width: 100%;
-  padding: 100px 20px;   /* this creates the long vertical strip */
+  padding: 100px 20px;
+
+  display: flex;
+  justify-content: center;   /* centers horizontally */
 }
 
 /* CONTENT CENTERING */
