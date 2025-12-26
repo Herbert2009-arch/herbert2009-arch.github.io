@@ -74,4 +74,19 @@ h2 {
   padding: 20px;
   border-radius: 12px;
   font-size: 18px;
+.pricing {
+  background: #020617;
+}
+
+.price-box {
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 30px;
+  background: #020617;
+}
+
+.price {
+  font-size: 36px;
+  color: #38bdf8;
+  margin: 20px 0;
 }
