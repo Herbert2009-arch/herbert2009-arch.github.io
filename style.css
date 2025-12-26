@@ -5,17 +5,22 @@ body {
   color: #e5e7eb;
 }
 
-/* Layout helpers */
-.container {
-  max-width: 1000px;
+/* STRIP SECTIONS */
+.strip {
+  width: 100%;
+  padding: 100px 20px;   /* this creates the long vertical strip */
+}
+
+/* CONTENT CENTERING */
+.content {
+  max-width: 1100px;
   margin: auto;
-  padding: 60px 20px;
   text-align: center;
 }
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #020617, #020617);
+  background: #020617;
 }
 
 h1 {
@@ -24,11 +29,9 @@ h1 {
   margin-bottom: 20px;
 }
 
-.subtitle {
-  font-size: 22px;
+p {
+  font-size: 20px;
   line-height: 1.6;
-  max-width: 700px;
-  margin: auto;
 }
 
 /* BUTTON */
@@ -43,46 +46,28 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  opacity: 0.9;
-}
-
-.contact-text {
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-/* SERVICES */
-.services {
+/* SERVICES + PRICING */
+.services, .pricing {
   background: #020617;
 }
 
 h2 {
-  font-size: 32px;
-  margin-bottom: 30px;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
 }
 
-.box {
-  background: #020617;
+/* BOXES */
+.box, .price-box {
   border: 1px solid #1e293b;
-  padding: 20px;
-  border-radius: 12px;
-  font-size: 18px;
-.pricing {
-  background: #020617;
-}
-
-.price-box {
-  border: 1px solid #1e293b;
-  border-radius: 16px;
   padding: 30px;
-  background: #020617;
+  border-radius: 16px;
+  font-size: 18px;
 }
 
 .price {
